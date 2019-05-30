@@ -1,0 +1,137 @@
+/*div#wcLabel {display: none;} Helvetica Neue */
+
+
+                          /*.well {background-color: red;}*/
+
+                          @import url('https://fonts.googleapis.com/css?family=Karla|Source+Serif+Pro|Ultra');
+                          @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+                                   /*.content-wrapper {
+                                   background-color: white !important;}*/
+
+                              
+                                   .boxed {
+                                     border: 2px solid #ffffff;
+                                     box-shadow: 10px 10px 5px grey;
+
+                                   }
+
+                                   label, input, button, select {
+                                   font-family: 'Poppins', sans-serif;
+                                   font-color = #ffffff;
+                                   font-size: 14pt;
+                                   }
+
+                                  /* Color de fondo  #46bcd6*/
+                                  .content-wrapper {
+                                  background-color: white !important;
+                                  }
+
+                          .box.box-solid.box-warning>.box-header {
+                                   color:#ffffff;
+                                   font-color = #ffffff; /*Color de letra de la caja*/
+                                   -webkit-text-stroke: 1px white; /*Borde color Caja*/
+                                   /*text-shadow: 3px 2px black;*/
+                                   background:white;
+                                   background-color: #ffbfbf; /*Color de la caja*/
+                                   font-family: 'Poppins', sans-serif;
+                                   text-align:center;
+                                   }
+
+                          .box.box-solid.box-warning {
+                                   color:#ffffff;
+                                   background-color:white;
+                                   border-color:white;
+                                   }
+
+                          h1 {
+                            color: #a038dd;
+                            font-family: 'Poppins', sans-serif;
+                            text-align: center;
+                           }
+
+                           h2 {
+                             color: #ffbfbf;
+                             font-family: 'Poppins', sans-serif;
+                             text-align: center;
+
+                            }
+
+                            h3{
+                              font-family: 'Poppins', sans-serif;
+                              text-align: center;
+                            }
+
+                           h4 {
+                            color: #f9dddd;
+                            font-weight:bold;
+                            font-family: 'Poppins', sans-serif;
+                            text-align: center;
+                           }
+
+
+                           li span {
+                           font-family: 'Poppins', sans-serif;
+                           font-size: 15px;
+                           font-color:#606060;
+                           }
+
+                           li {
+                           font-family: 'Poppins', sans-serif;
+                           font-size: 16px;
+                           padding-top: 0px;
+                           padding-botton: 0px;
+                           border:1px;
+                           line-height: 1.7;
+                           font-color:#606060;
+                           }
+
+                              p {
+                              text-indent: 0px;
+                              font-family: 'Poppins', sans-serif;
+                              font-size: 12pt;
+                              color: #000000;
+                              text-align:justify;
+                              padding-top: 5px;
+                              padding-botton: 10px;
+                              padding-right:70px;
+                              padding-left:70px;
+                              }
+
+                              em{
+                                color: gray;
+                              }
+
+                              p.em {
+                                text-indent: 0px;
+                                font-family: 'Poppins', sans-serif;
+                                font-size: 12pt;
+                                color: #000000;
+                                text-align:justify;
+                                padding-top: 5px;
+                                padding-botton: 10px;
+                                padding-right:70px;
+                                padding-left:70px;
+                                color: gray;
+                                font-style: italic;
+                                text-align: center;
+                              }
+
+                              p.em2 {
+                                text-indent: 0px;
+                                font-family: 'Poppins', sans-serif;
+                                font-size: 10pt;
+                                color: #000000;
+                                padding-top: 5px;
+                                padding-botton: 10px;
+                                padding-right:70px;
+                                padding-left:70px;
+                                color: gray;
+                                font-style: italic;
+                                text-align: center;
+                              }
+
+                              img {
+                              display: block;
+                              margin-left: auto;
+                              margin-right: auto;
+                              }

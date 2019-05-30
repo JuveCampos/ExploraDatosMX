@@ -21,7 +21,7 @@ pat <- c("Comisión Nacional de los Derechos Humanos" ,
 
 bd_completa$DESC_RAMO <-  stringr::str_replace(bd_completa$DESC_RAMO, pattern = pat[1], replacement = c("CNDH", "INAI", "PGR")[1])
 bd_completa$DESC_RAMO <-  stringr::str_replace(bd_completa$DESC_RAMO, pattern = pat[2], replacement = c("CNDH", "INAI", "PGR")[2])
-bd$completa <-  stringr::str_replace(bd_completa$DESC_RAMO, pattern = pat[3], replacement = c("CNDH", "INAI", "PGR")[3])
+bd_completa$DESC_RAMO <-  stringr::str_replace(bd_completa$DESC_RAMO, pattern = pat[3], replacement = c("CNDH", "INAI", "PGR")[3])
 
 #base treemap completo
 bd_tree_completa<-bd_completa %>% 
@@ -60,6 +60,15 @@ p <- ggplot(b1, aes(x = CICLO, y = aprobado, color = DESC_TIPOGASTO)) + geom_bar
        y = "Presupuesto Aprobado (millones de Pesos)") + theme_bw()
 
 
+# Temas de graficar 
+tema_juve <- theme_bw() + theme(text = element_text(family = "Asap-Bold", color = "#25636e"), 
+                                panel.grid.major = element_blank(),
+                                panel.grid.minor = element_blank(), 
+                                plot.caption=element_text(hjust=1,size=9,colour="grey30"),
+                                plot.subtitle=element_text(face="italic",size=12,colour="grey40"),
+                                plot.title=element_text(size=18,face="bold"),
+                                axis.text.x = element_text(family = "Asap-Bold", color = "#25636e"),
+                                axis.text.y = element_text(family = "Asap-Bold", color = "#25636e"))
 
 
 
